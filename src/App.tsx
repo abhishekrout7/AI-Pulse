@@ -334,6 +334,35 @@ export default function App() {
           <p className="mt-8 text-2xl text-gray-700 max-w-4xl leading-relaxed">
             As commercial adoption hits a structural turning point, we are witnessing the transition of generative models from "creative novelties" into "operational substrates." In April 2026, the focus has shifted from what an AI can say to what an AI can <span className="text-black font-semibold">execute</span> autonomously within complex vertical workflows.
           </p>
+          <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div className="space-y-4">
+              <div className="w-10 h-10 bg-violet-50 rounded-lg flex items-center justify-center">
+                <Palette className="w-5 h-5 text-violet-600" />
+              </div>
+              <div className="space-y-2">
+                <h4 className="text-sm font-bold uppercase tracking-widest text-violet-600">Design</h4>
+                <p className="text-sm text-gray-600">Reimagining video editing through generative fill and lighting-aware consistency.</p>
+              </div>
+            </div>
+            <div className="space-y-4">
+              <div className="w-10 h-10 bg-emerald-50 rounded-lg flex items-center justify-center">
+                <TrendingUp className="w-5 h-5 text-emerald-600" />
+              </div>
+              <div className="space-y-2">
+                <h4 className="text-sm font-bold uppercase tracking-widest text-emerald-600">Finance</h4>
+                <p className="text-sm text-gray-600">Automating complex thematic portfolio construction and multi-million dollar customer query loops.</p>
+              </div>
+            </div>
+            <div className="space-y-4">
+              <div className="w-10 h-10 bg-amber-50 rounded-lg flex items-center justify-center">
+                <Factory className="w-5 h-5 text-amber-600" />
+              </div>
+              <div className="space-y-2">
+                <h4 className="text-sm font-bold uppercase tracking-widest text-amber-600">Manufacturing</h4>
+                <p className="text-sm text-gray-600">Democratizing PLC code development with natural-language industrial copilots.</p>
+              </div>
+            </div>
+          </div>
         </motion.div>
 
         <section id="design" className="py-10">
